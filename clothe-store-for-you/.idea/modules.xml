@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/clothe-store-for-you.iml" filepath="$PROJECT_DIR$/clothe-store-for-you.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/data-access/data-access.iml" filepath="$PROJECT_DIR$/src/data-access/data-access.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/data-service/data-service.iml" filepath="$PROJECT_DIR$/src/data-service/data-service.iml" />
+    </modules>
+  </component>
+</project>
