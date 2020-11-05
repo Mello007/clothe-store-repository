@@ -1,0 +1,23 @@
+bot:
+  telegram:
+    bot-name: xboxbowtest_bot
+    bot-token: 1021409840:AAFDTds7NiyeW5qEqcgEtg5u8HhuP3YWdcA
+spring:
+  liquibase:
+    change-log: classpath:/db/changelog/db.changelog-master.xml
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/xboxnow
+    username: postgres
+    password: 55164937
+  cache:
+    jcache:
+      config: classpath:ehcache.xml
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+    hibernate:
+      ddl-auto: update
+instances:
+  slack:
+    bot:
+      storage-folder: ${java.io.tmpdir}
